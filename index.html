@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html data-theme="light">
+  <head>
+    <title>DOTStore</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="NOVER MOHSEN" />
+    <link rel="shortcut icon" href="assets/nover.png" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="assets/all.min.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="left-side">
+          <h2><span>dot</span>Store</h2>
+          <a class="bar" id="bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+        <div class="overlay" id="overlay"></div>
+        <div class="right-side" id="right-side">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#product-container">products</a></li>
+            <li><a href="#testemon">about us</a></li>
+            <li><a href="#">contant us</a></li>
+            <li>
+              <button class="toggle-btn" id="toggle-btn">
+                <div class="toggle-content">
+                  <span class="light"><i class="fa-solid fa-sun"></i></span>
+                  <span class="dark"><i class="fa-solid fa-moon"></i></span>
+                </div>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <div class="content-box">
+          <div class="left-side">
+            <div class="text">
+              <h3>hello there !</h3>
+              <h1>wellcome to <span>dot</span>store</h1>
+              <p>DOTStore is a big ecommerce app</p>
+            </div>
+            <div class="links">
+              <a href="#explore" class="first">explore</a>
+              <a href="#testemon" class="last">about us</a>
+            </div>
+          </div>
+          <div class="right-land">
+            <img src="assets/amin-image.png" alt="" />
+          </div>
+        </div>
+      </main>
+      <section class="testemon" id="testemon">
+        <div class="container">
+          <div class="title">
+            <h3>testimonials</h3>
+          </div>
+          <div class="container-box">
+            <div class="box">
+              <div class="data-box">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h4>Super security</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis id rerum itaque vel vero natus voluptatem, illum
+                  illo quia pariatur.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="data-box">
+                <i class="fa-solid fa-person-circle-plus"></i>
+                <h4>many clients</h4>
+                <p>
+                  sit amet consectetur adipisicing elit. Perferendis id rerum
+                  itaque vel vero natus voluptatem, illum illo quia pariatur.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="data-box">
+                <i class="fa-solid fa-rocket"></i>
+                <h4>fast app</h4>
+                <p>
+                  dolor sit amet consectetur adipisicing elit. Perferendis id
+                  rerum itaque vel vero natus voluptatem, illum illo quia
+                  pariatur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="product container">
+        <div class="title">
+          <h3>our top rating products</h3>
+        </div>
+        <div class="search-container">
+          <div class="search-box">
+            <div class="search">
+              <input type="search" placeholder="Search Here" id="search-fild" />
+              <label for="search-fild">
+                <i class="fa-solid fa-magnifying-glass"></i
+              ></label>
+            </div>
+          </div>
+        </div>
+        <div class="product-container" id="product-container"></div>
+      </section>
+      <section class="explore" id="explore">
+        <div class="title">
+          <h3>Explore</h3>
+        </div>
+        <div class="explore-container">
+          <div class="explore-content">
+            <div class="exolper-seva">
+              <div class="explore-text">
+                <h3>that is our new beginning!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos quas veniam optio, voluptatibus maxime distinctio
+                  dicta reprehenderit ipsa quaerat architecto accusamus ipsum
+                  asperiores quasi aspernatur fugiat! Obcaecati itaque nostrum,
+                </p>
+              </div>
+              <div class="explore-text">
+                <h3>we are going to upgrade our app soon !</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos quas veniam optio, voluptatibus maxime distinctio
+                  dicta reprehenderit ipsa quaerat architecto accusamus ipsum
+                  asperiores quasi aspernatur fugiat! Obcaecati itaque nostrum,
+                </p>
+              </div>
+              <div class="explore-text">
+                <h3>follow us !</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos quas veniam optio, voluptatibus maxime distinctio
+                  dicta reprehenderit ipsa quaerat architecto accusamus ipsum
+                  asperiores quasi aspernatur fugiat! Obcaecati itaque nostrum,
+                </p>
+              </div>
+              <div class="explore-text">
+                <h3>thanks for your time !</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos quas veniam optio, voluptatibus maxime distinctio
+                  dicta reprehenderit ipsa quaerat architecto accusamus ipsum
+                  asperiores quasi aspernatur fugiat! Obcaecati itaque nostrum,
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="end">
+          <img src="assets/nover.png" alt="a" />
+          <h5>made by : nover mohsen 🤍</h5>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
